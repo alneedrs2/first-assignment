@@ -4,7 +4,7 @@ body{
 h1{
     font-size: 45px;
 }
-.first-section{
+.flex-box-contain{
     display: flex;
 }
 .color{
@@ -26,10 +26,35 @@ h1{
 .link-button{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(rgb(163, 78, 124), rgb(131, 57, 68));
+    background-image: linear-gradient(rgb(192, 125, 37), rgb(131, 57, 68));
     padding: 10px 40px;
     font-weight: 100;
     border-radius: 5px;
 }
-
-    
+.mission{
+    text-align: center;
+}
+.same-mission{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    border-radius: 10px;
+}
+.picture{
+    width: 30%;
+}
+#Mission{
+    background-color: rgb(154, 173, 154);
+}
+#Vission{
+    background-image: linear-gradient(pink, rgb(172, 102, 114));
+}
+#Goals{
+    background-color: rgb(201, 104, 69);
+}
+.bgpic{
+    background-image: url(shapes/dream-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+} 
