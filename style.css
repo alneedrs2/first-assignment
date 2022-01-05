@@ -1,0 +1,35 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-size: 45px;
+}
+.first-section{
+    display: flex;
+}
+.color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.first-div{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(168, 31, 54), rgb(153, 49, 67));
+    border-image-slice: 1;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(163, 78, 124), rgb(131, 57, 68));
+    padding: 10px 40px;
+    font-weight: 100;
+    border-radius: 5px;
+}
+
+    
