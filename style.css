@@ -58,3 +58,13 @@ h1{
     background-position: left;
     background-repeat: no-repeat;
 } 
+.last-section{
+    text-align: center;
+}
+.programming{
+    background-color: black;
+}
+.end-assign{
+    text-align: center;
+    color: white;
+}
